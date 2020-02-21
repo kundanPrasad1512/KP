@@ -12822,11 +12822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Data\\LetsConnect.Data.csproj",
+      "projectUniqueName": "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Data\\LetsConnect.Data.csproj",
       "projectName": "LetsConnect.Data",
-      "projectPath": "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Data\\LetsConnect.Data.csproj",
+      "projectPath": "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Data\\LetsConnect.Data.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Data\\obj\\",
+      "outputPath": "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12845,8 +12845,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Entities\\LetsConnect.Entities.csproj": {
-              "projectPath": "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Entities\\LetsConnect.Entities.csproj"
+            "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Entities\\LetsConnect.Entities.csproj": {
+              "projectPath": "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Entities\\LetsConnect.Entities.csproj"
             }
           }
         }

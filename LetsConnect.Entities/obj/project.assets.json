@@ -12662,11 +12662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Entities\\LetsConnect.Entities.csproj",
+      "projectUniqueName": "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Entities\\LetsConnect.Entities.csproj",
       "projectName": "LetsConnect.Entities",
-      "projectPath": "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Entities\\LetsConnect.Entities.csproj",
+      "projectPath": "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Entities\\LetsConnect.Entities.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\LC\\LetsConnectApp\\LetsConnectApp\\LetsConnect.Entities\\obj\\",
+      "outputPath": "C:\\Projects\\LC\\KP\\LetsConnect\\LetsConnect.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
