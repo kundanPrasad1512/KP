@@ -1,0 +1,423 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+	<IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+	<RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+   <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+   <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.2" />
+   <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
+    <Content Remove="ClientApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\app\components\messages\message.component.ts" />
+    <None Remove="ClientApp\app\components\socialWall\images\bdr1.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\bdr2.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\bg_shadow.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\comments.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\controls.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\controls1.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\delicious.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\deviantart.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\digg.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\dribbble.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\facebook.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\flickr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\google.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\lastfm.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\pinterest.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\rss.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\stumbleupon.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\temp.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\tumblr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\twitter.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\vimeo.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark-1\youtube.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\delicious.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\deviantart.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\digg.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\dribbble.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\facebook.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\flickr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\google.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\instagram.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\lastfm.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\pinterest.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\rss.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\stumbleupon.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\tumblr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\twitter.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\vimeo.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-dark\youtube.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\delicious.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\deviantart.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\digg.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\dribbble.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\facebook.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\flickr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\google.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\instagram.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\lastfm.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\pinterest.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\rss.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\stumbleupon.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\temp.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\tumblr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\twitter.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\vimeo.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light-1\youtube.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\delicious.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\deviantart.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\digg.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\dribbble.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\facebook.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\flickr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\google.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\instagram.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\lastfm.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\rss.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\stumbleupon.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\tumblr.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\twitter.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\vimeo.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\dcsns-light\youtube.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\hot.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\likes.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\loading.gif" />
+    <None Remove="ClientApp\app\components\socialWall\images\loading_dark.gif" />
+    <None Remove="ClientApp\app\components\socialWall\images\loading_light.gif" />
+    <None Remove="ClientApp\app\components\socialWall\images\loves.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\noize.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\profile.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\share.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\shares.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\tracks.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\User.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\videos.png" />
+    <None Remove="ClientApp\app\components\socialWall\images\views.png" />
+    <None Remove="ClientApp\app\components\socialWall\social-wall.component.ts" />
+    <None Remove="ClientApp\app\Model\ISocialWall.ts" />
+    <None Remove="ClientApp\app\Service\home.service.ts" />
+    <None Remove="ClientApp\app\Shared\capitalize.pipe.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ClientApp\app\components\socialWall\images\bdr1.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\bdr2.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\bg_shadow.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\comments.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\controls.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\controls1.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\delicious.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\deviantart.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\digg.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\dribbble.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\facebook.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\flickr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\google.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\lastfm.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\pinterest.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\rss.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\stumbleupon.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\temp.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\tumblr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\twitter.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\vimeo.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark-1\youtube.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\delicious.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\deviantart.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\digg.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\dribbble.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\facebook.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\flickr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\google.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\instagram.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\lastfm.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\pinterest.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\rss.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\stumbleupon.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\tumblr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\twitter.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\vimeo.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-dark\youtube.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\delicious.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\deviantart.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\digg.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\dribbble.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\facebook.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\flickr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\google.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\instagram.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\lastfm.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\pinterest.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\rss.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\stumbleupon.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\temp.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\tumblr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\twitter.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\vimeo.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light-1\youtube.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\delicious.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\deviantart.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\digg.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\dribbble.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\facebook.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\flickr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\google.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\instagram.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\lastfm.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\rss.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\stumbleupon.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\tumblr.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\twitter.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\vimeo.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\dcsns-light\youtube.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\hot.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\likes.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\loading.gif">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\loading_dark.gif">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\loading_light.gif">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\loves.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\noize.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\profile.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\share.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\shares.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\tracks.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\User.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\videos.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="ClientApp\app\components\socialWall\images\views.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LetsConnect.Data\LetsConnect.Data.csproj" />
+    <ProjectReference Include="..\LetsConnect.Entities\LetsConnect.Entities.csproj" />
+    <ProjectReference Include="..\LetsConnect.Services\LetsConnect.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Documents\Images\" />
+    <Folder Include="Documents\Resumes\" />
+    <Folder Include="wwwroot\dist\browser\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\components\messages\message.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\components\socialWall\social-wall.component.ts" />
+    <TypeScriptCompile Include="ClientApp\app\Model\ISocialWall.ts" />
+    <TypeScriptCompile Include="ClientApp\app\Service\home.service.ts" />
+    <TypeScriptCompile Include="ClientApp\app\Shared\capitalize.pipe.ts" />
+  </ItemGroup>
+
+  <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+
+    <!-- In development, the dist files won't exist on the first run or when cloning to
+         a different machine, so rebuild them if not already present. -->
+    <Message Importance="high" Text="Performing first-run Webpack build..." />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec Command="npm install" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="wwwroot\dist\**; ClientApp\dist\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+</Project>

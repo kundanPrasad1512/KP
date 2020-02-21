@@ -1,0 +1,28 @@
+﻿body {
+    background-image: url('../../../../wwwroot/images/think-professional.jpg');
+    background-color: transparent;
+    }
+
+label, .card-header,p {
+    color: #ffffff;
+}
+
+
+.card-login {
+    background: linear-gradient( rgba(0,0,0, 0.5), rgba(127,156,200, .5));
+    overflow: hidden;
+}
+
+.card-login:before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}

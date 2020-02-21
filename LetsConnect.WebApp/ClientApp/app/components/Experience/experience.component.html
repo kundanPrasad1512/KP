@@ -1,0 +1,63 @@
+﻿<div class='panel panel-primary'>
+    <div class='panel-heading'>
+        Experience Management
+    </div>
+    <div class='panel-body'>
+        <div class='table-responsive'>
+            <div style="padding-bottom:10px"><button class="btn btn-primary" (click)="addExperience()">Add</button></div>
+            <div class="alert alert-info" role="alert" *ngIf="indLoading">
+                <img src="../../../../wwwroot/dist/loading.gif" width="32" height="32" /> Loading...
+            </div>
+           
+            <div *ngIf='experiences && experiences.length==0' class="alert alert-info" role="alert">No record found!</div>
+            <table class='table table-striped' *ngIf='experiences && experiences.length'>
+                <thead>
+                    <tr>
+                        <th>Experience Range</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let experience of experiences">
+                        <td>{{experience.experienceRange}}</td>
+                        <td>
+                            <button title="Edit" class="btn btn-primary" (click)="editExperience(experience.experienceID)">Edit</button>
+                            <button title="Delete" class="btn btn-danger" (click)="deleteExperience(experience.experienceID)">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+            </div>
+        </div>
+        <div *ngIf="msg" role="alert" class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span>
+            {{msg}}
+        </div>
+    </div>
+</div>
+
+<modal #modal>
+    <form novalidate (ngSubmit)="onSubmit(experienceForm)" [formGroup]="experienceForm">
+        <modal-header [show-close]="true">
+            <h4 class="modal-title">{{modalTitle}}</h4>
+        </modal-header>
+        <modal-body>
+            <div class="form-group">
+                
+                <div>
+                    <span>Experience Range*</span>
+                    <input type="text" class="form-control" placeholder="Experience Range" formControlName="experienceRange">
+                </div>               
+            </div>
+        </modal-body>
+        <modal-footer>
+            <div>
+                <a class="btn btn-default" (click)="modal.dismiss()">Cancel</a>
+                <button type="submit" [disabled]="experienceForm.invalid" class="btn btn-primary">{{modalBtnTitle}}</button>
+            </div>
+        </modal-footer>
+    </form>
+</modal>

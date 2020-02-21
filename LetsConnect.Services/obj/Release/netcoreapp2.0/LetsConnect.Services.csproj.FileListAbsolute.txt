@@ -1,0 +1,16 @@
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\Properties\launchSettings.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Services.deps.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Services.runtimeconfig.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Services.runtimeconfig.dev.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Services.dll
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Services.pdb
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Data.dll
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Data.pdb
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\bin\Release\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\obj\Release\netcoreapp2.0\LetsConnect.Services.csprojAssemblyReference.cache
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\obj\Release\netcoreapp2.0\LetsConnect.Services.AssemblyInfoInputs.cache
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\obj\Release\netcoreapp2.0\LetsConnect.Services.AssemblyInfo.cs
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\obj\Release\netcoreapp2.0\LetsConnect.Services.csproj.CopyComplete
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\obj\Release\netcoreapp2.0\LetsConnect.Services.dll
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Services\obj\Release\netcoreapp2.0\LetsConnect.Services.pdb

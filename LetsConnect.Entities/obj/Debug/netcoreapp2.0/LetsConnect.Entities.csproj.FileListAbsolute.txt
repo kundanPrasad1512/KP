@@ -1,0 +1,54 @@
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.deps.json
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.json
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.dev.json
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfoInputs.cache
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfo.cs
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Users\Kundan Prasad\source\repos\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.deps.json
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.json
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.dev.json
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.csproj.CoreCompileInputs.cache
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfoInputs.cache
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfo.cs
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Practice_Project\LetsConnectWeb\LetsConnect\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.csprojResolveAssemblyReference.cache
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.deps.json
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.json
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.dev.json
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.csprojResolveAssemblyReference.cache
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.csproj.CoreCompileInputs.cache
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfoInputs.cache
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfo.cs
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Practice_Project\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.deps.json
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.json
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.dev.json
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfoInputs.cache
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfo.cs
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Projects\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.deps.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.runtimeconfig.dev.json
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\bin\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfoInputs.cache
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.AssemblyInfo.cs
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.dll
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.pdb
+C:\Projects\LC\LetsConnectApp\LetsConnectApp\LetsConnect.Entities\obj\Debug\netcoreapp2.0\LetsConnect.Entities.csprojAssemblyReference.cache
